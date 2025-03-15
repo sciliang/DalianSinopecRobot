@@ -1,0 +1,31 @@
+<?xml version="1.0" standalone="no" ?>
+<PatrolConfig>
+    <Communication>
+        <HumanPC GroupID="1">192.168.1.93</HumanPC>
+        <ControlIP GroupID="1" RobotID="0">192.168.0.100</ControlIP>
+    </Communication>
+    <MotionPara>
+        <MaxVelocity>1.0</MaxVelocity>
+        <MaxAngular>15.3</MaxAngular>
+        <MaxVelAcc>5.0</MaxVelAcc> 
+        <MaxAngularAcc>10.4</MaxAngularAcc>
+        <VelAcc>5.0</VelAcc> 
+        <AngularAcc>10.0</AngularAcc>
+    </MotionPara>   
+    <Chassis>
+        <AxisWidth>0.637</AxisWidth>
+        <WheelWidth>0.636</WheelWidth>
+        <MaxFrontWheelAngle>0.636</MaxFrontWheelAngle>
+    </Chassis>
+    <TargetArea>
+        <TargetFieldLon0>123.49443100</TargetFieldLon0>
+        <TargetFieldLat0>41.67872510</TargetFieldLat0>  
+        <TargetFieldLon1>123.49436060</TargetFieldLon1>
+        <TargetFieldLat1>41.67878180</TargetFieldLat1> 
+        <TargetFieldLon2>123.49433990</TargetFieldLon2>
+        <TargetFieldLat2>41.67868330</TargetFieldLat2>
+        <TargetFieldLon3>123.49428360</TargetFieldLon3>
+        <TargetFieldLat3>41.67873270</TargetFieldLat3>   
+    </TargetArea>      
+</PatrolConfig> 
+
